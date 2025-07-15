@@ -147,12 +147,12 @@ export const VCDetailView: React.FC<VCItemDetailsProps> = props => {
                       wellknownDisplayProperty,
                       props,
                     )}
-                  <VCItemField
+{/*                   <VCItemField
                     key={'keyTypeVcDetailView'}
                     fieldName={KEY_TYPE_FIELD}
                     fieldValue={props.keyType}
                     testID={'keyTypeVcDetailView'}
-                  />
+                  /> */}
                 </Column>
               </>
             </ImageBackground>
